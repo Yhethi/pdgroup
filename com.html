@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="img/favicon.png" rel="icon">
+
+    <title>PD GROUP</title>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/subpaginas.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+    <style>
+        #modal_fotos{
+            background-image: url('img/com/fondo.png');
+            background-size: 100%;
+        }
+    </style>
+
+    <div id="modal_fotos">
+
+        <div id="carouselExampleCaptions5" class="carousel slide" data-bs-ride="false">
+          
+            <div class="carousel-inner" id="imagenes">
+
+                <div class="carousel-item active">
+                   <img loading="lazy" class="all_img img_g" src="img/com/galeria/album4/img1.jpg" alt="">
+                 </div>
+    
+                 <div class="carousel-item">
+                    <img loading="lazy" class="all_img img_g" src="img/com/galeria/album4/img1.jpg" alt="">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img loading="lazy" class="all_img img_g" src="img/com/galeria/album4/img1.jpg" alt="">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img loading="lazy" class="all_img img_g" src="img/com/galeria/album4/img1.jpg" alt="">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img loading="lazy" class="all_img img_g" src="img/com/galeria/album4/img1.jpg" alt="">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img loading="lazy" class="all_img img_g" src="img/com/galeria/album4/img1.jpg" alt="">
+                  </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" id="" data-bs-target="#carouselExampleCaptions5" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators" id="indicadores">
+                <!-- <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="0" style="background: rgb(84, 84, 84);" class="img_selected active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="1" style="background: rgb(84, 84, 84);" class="img_selected " aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="2" style="background: rgb(84, 84, 84);" class="img_selected " aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="3" style="background: rgb(84, 84, 84);" class="img_selected " aria-label="Slide 4"></button> -->
+  
+              </div>
+          </div>
+          <!-- <div class="derecha">
+            <h1>Titulo del album</h1>
+            <h3>Description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consectetur rem harum quo.</h3>
+            <div class="otros_albums">
+                    <div class="item_oAlbums">
+                        <img loading="lazy" class="all_img img_oAlbums" src="img/com/galeria/img1.png" alt="">
+                        <div class="textos_oAlbums">
+                            <h1>Titulo Album</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cum ullam, possimus perspiciatis earum eaque neque, atque quo omnis in commodi.</p>
+                        </div>
+                    </div>
+
+                    <div class="item_oAlbums">
+                        <img loading="lazy" class="all_img img_oAlbums" src="img/com/galeria/img1.png" alt="">
+                        <div class="textos_oAlbums">
+                            <h1>Titulo Album</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cum ullam, possimus perspiciatis earum eaque neque, atque quo omnis in commodi.</p>
+                        </div>
+                    </div>
+
+                    <div class="item_oAlbums">
+                        <img loading="lazy" class="all_img img_oAlbums" src="img/com/galeria/img1.png" alt="">
+                        <div class="textos_oAlbums">
+                            <h1>Titulo Album</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cum ullam, possimus perspiciatis earum eaque neque, atque quo omnis in commodi.</p>
+                        </div>
+                    </div>
+            </div>
+
+
+        </div> -->
+        <button type="button" class="btn-close btn-close-white" id="cerrar_modal" style="z-index: 100;"></button>
+
+    </div>
+   
+<style>
+
+
+</style>
+
+
+
+    <!-- <div class="fondo">
+        <img id="fondo_p" src="img/index/fondo.png" alt="" srcset="">
+    </div> -->
+
+    <div class="selected_index">
+        <a href="index.html"><img id="s_img" src="img/pcom.png" alt=""></a>
+        <div class="smooth">
+            <a class="a_smooth" href="#c1"></a>
+            <a class="a_smooth" href="#c2"></a>
+            <a class="a_smooth" href="#c3"></a>
+            <a class="a_smooth" href="#c4"></a>
+            <a class="a_smooth" href="#c5"></a>
+            <a class="a_smooth" href="#c6"></a>
+            <a class="a_smooth" href="#c7"></a>
+        </div>
+
+            <div class="checkboxes">
+
+                <label class="checkeable">
+                <div class="d-flex">
+                    <input class="chk_index" type="checkbox" name="" id="v1">
+                    <img loading="lazy" class="all_img img_index" src="img/com/c1.png"><p class="title_index">Bienvenidos</p>
+                </div>
+              </label>
+
+                <label class="checkeable">
+                <div class="d-flex">
+                    <input class="chk_index" type="checkbox" name="" id="v2">
+                    <img loading="lazy" class="all_img img_index" src="img/com/c2.png"><p class="title_index">Nosotros</p>
+                </div>
+                </label>
+
+                <label class="checkeable">
+                <div class="d-flex">
+                    <input class="chk_index" type="checkbox" name="" id="v3">
+                    <img loading="lazy" class="all_img img_index" src="img/com/c3.png"><p class="title_index" style="">Servicios</p>
+                </div>
+                </label>
+
+                <label class="checkeable">
+                <div class="d-flex">
+                    <input class="chk_index" type="checkbox" name="" id="v4">
+                    <img loading="lazy" class="all_img img_index" src="img/com/c4.png"><p class="title_index" style="">Galeria</p>
+                </div>
+                </label>
+
+                <label class="checkeable">
+                <div class="d-flex">
+                    <input class="chk_index" type="checkbox" name="" id="v5">
+                    <img loading="lazy" class="all_img img_index" src="img/com/c5.png"><p class="title_index" style="">Clientes</p>
+                </div>
+                </label>
+
+                <label class="checkeable">
+                <div class="d-flex">
+                    <input class="chk_index" type="checkbox" name="" id="v6">
+                    <img loading="lazy" class="all_img img_index" src="img/com/c6.png"><p class="title_index">Contacto</p>
+                </div>
+                </label>
+
+
+            </div>
+    </div>
+
+    
+    <div class="centrarb">
+        <a href="#c2"><img loading="lazy" class="all_img btn_mitad" id="b1" src="img/b1.png"></a>
+    </div>
+
+    <div class="campo_g" id="c1">
+      
+        <div class="gotas" style="z-index: -1002; filter: grayscale(1);">
+    
+            <div class="g_grupo1">
+            <img loading="lazy" class="all_img g_gota1" src="img/com/c3gota1.png" alt="" srcset="">
+            <img loading="lazy" class="all_img g_gota2" src="img/com/c3gota1.png" alt="" srcset="">
+            </div>
+
+            <div class="g_grupo2">
+                <img loading="lazy" class="all_img m_gota1" src="img/com/c3gota2.png" alt="" srcset="">
+                <img loading="lazy" class="all_img m_gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                </div>
+
+                <div class="g_grupo3">
+                    <img loading="lazy" class="all_img p_gota1" src="img/com/c3gota3.png" alt="" srcset="">
+                    <img loading="lazy" class="all_img p_gota2" src="img/com/c3gota3.png" alt="" srcset="">
+                </div>
+        </div>
+
+        
+    <img id="puntos" src="img/events/puntos.png" alt="" srcset="">
+    <div class="event1_derecha" style="background-image: url('img/com/f_com1.png');">
+        <h1 style="color: white;">Lorem ipsum dolor sit asemt</h1>
+        <p style="color: white;">Lorem ipsum dolor sit amet adipisicing elit. Nisi sunt expedita amet aut, temporibus modi excepturi quos totam sapiente. Distinctio corporis quis vitae. Vero a possimus molestias enim, quo inventore.</p>
+        <button class="btn btn_mini" id="btn1">COMIENZA YA</button>
+    </div>
+
+        <div class="v_contenido">
+            <!-- <video class="video" src="video/events.mp4" width="20px" height="20px" ></video> -->
+            <img src="img/com/img1.jpg" alt="" srcset="">
+        </div>
+
+    </div>
+
+
+  
+    <div class="campo_g" id="c2">
+  
+        <div class="gotas">
+    
+            <div class="g_grupo1">
+            <img loading="lazy" class="all_img g_gota1" src="img/com/c3gota1.png" alt="" srcset="">
+            <img loading="lazy" class="all_img g_gota2" src="img/com/c3gota1.png" alt="" srcset="">
+            </div>
+
+            <div class="g_grupo2">
+                <img loading="lazy" class="all_img m_gota1 c2gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                <img loading="lazy" class="all_img m_gota2 c2gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                </div>
+
+                <div class="g_grupo3">
+                    <img loading="lazy" class="all_img p_gota1" src="img/com/c3gota3.png" alt="" srcset="">
+                    <img loading="lazy" class="all_img p_gota2" src="img/com/c3gota3.png" alt="" srcset="">
+                </div>
+        </div>
+
+        <!-- contenido -->
+        <div class="contenido1">
+            <div class="izquierda" id="c2_izquierda">
+                <img id="c2p1" src="img/com/c2p1.png" alt="">
+<style>
+
+    .checkeable{
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+        cursor: pointer;
+        background: rgb(199, 199, 199) !important;
+    }
+    .checkeable img{
+        transform: translate(-5px,-4.7px);
+    }
+
+    #c2p1{
+        width: 100%;
+    }
+    p{
+        color: black;
+    }
+    h1{
+        color: black;
+    }
+    h2{
+        color: black;
+    }
+    h3{
+        color: black;
+    }
+    h4{
+        color: black;
+    }
+    h5{
+        color: black;
+    }
+    span{
+        color: black;
+    }
+
+    .btn_circle{
+    height: 0px !important;
+    width: 15px !important;
+    border-radius: 100%;
+}
+
+
+.btn_circle2{
+    height: 0px !important;
+    width: 15px !important;
+    border-radius: 100%;
+}
+</style>
+            </div>
+
+            <div class="derecha">
+               <h1 id="c2_nosotros" style="margin-top: 12vh;">NOSOTROS</h1>
+                <p>PDCOM es una agencia de comunicación y producción de contenidos especializada en campañas de promoción de Derechos Humanos, Diversidad, Cultura y Medioambiente. Hemos desarrollado campañas para diversas ONG de distintos paises y los principales organismos de cooperación internacional del mundo, en temas como: <br> <strong>Movilidad HUmana / Derechos de la población LGBTI / Derechos de la Mujer / Diversidad Cultural / Sostenibilidad / Emprendimiento y medios de vida / inclusión de personas con habilidades especiales</strong></p>
+            </div>
+            
+        </div>
+
+        <div class="centrarb">
+           <a href="#c3"> <img loading="lazy" class="all_img btn_mitad" id="b2" src="img/b1.png"> </a>
+        </div>
+
+        <div class="contenido0">
+            <img src="img/com/fondo.png" alt="" srcset="">
+        </div>
+
+    </div>
+
+
+     <div class="campo_g" id="c3">
+        
+        <div class="gotas">
+    
+          
+            <div class="g_grupo1">
+                <img loading="lazy" class="all_img g_gota1" src="img/com/c3gota1.png" alt="" srcset="">
+                <img loading="lazy" class="all_img g_gota2" src="img/com/c3gota1.png" alt="" srcset="">
+                </div>
+    
+                <div class="g_grupo2">
+                    <img loading="lazy" class="all_img m_gota1 c2gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                    <img loading="lazy" class="all_img m_gota2 c2gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                    </div>
+    
+                    <div class="g_grupo3">
+                        <img loading="lazy" class="all_img p_gota1" src="img/com/c3gota3.png" alt="" srcset="">
+                        <img loading="lazy" class="all_img p_gota2" src="img/com/c3gota3.png" alt="" srcset="">
+                    </div>
+        </div>
+      
+        <!-- contenido -->
+        <div class="contenido4">
+            <div class="izquierda">
+                <h1 id="servicios">SERVICIOS</h1>
+                <p style="color: black;">Creamos campañas de comunicación integrales, creativas, actuales, emotivas, medibles y escalables, con un fuerte componente digital, y producimos contenidos audiovisuales para educar, emocionar y generar conciencia.</p>
+                <div class="alinear">
+            </div>
+            </div>
+
+            <div class="derecha" id="c3_derecha">
+                <img loading="lazy" class="all_img flotar" id="c7p1" style="" src="img/com/img2.png" alt="">
+            </div>
+            
+        </div>
+
+
+        
+                <div class="centrarb">
+                    <a href="#c4">  <img loading="lazy" class="all_img btn_mitad" id="b5" src="img/b1.png"></a>
+                </div>
+
+                <div class="contenido0">
+                    <img src="img/com/fondo.png" alt="" srcset="">
+                </div>
+        
+     </div>
+
+     <div class="campo_g" id="c4">
+  
+        <div class="gotas" style="z-index: -3;">
+    
+        
+            <div class="g_grupo1">
+                <img loading="lazy" class="all_img g_gota1" src="img/com/c3gota1.png" alt="" srcset="">
+                <img loading="lazy" class="all_img g_gota2" src="img/com/c3gota1.png" alt="" srcset="">
+                </div>
+    
+                <div class="g_grupo2">
+                    <img loading="lazy" class="all_img m_gota1 c2gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                    <img loading="lazy" class="all_img m_gota2 c2gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                    </div>
+    
+                    <div class="g_grupo3">
+                        <img loading="lazy" class="all_img p_gota1" src="img/com/c3gota3.png" alt="" srcset="">
+                        <img loading="lazy" class="all_img p_gota2" src="img/com/c3gota3.png" alt="" srcset="">
+                    </div>
+        </div>
+
+
+    
+
+     <!-- <div id="modal_video">
+            
+        </div> -->
+        <!-- contenido -->
+        <div class="contenido3">
+
+        
+            <div id="carusel_video">
+                <!-- Comienzo carusel video -->
+                   <div id="carouselExampleCaptions6" class="carousel slide" data-bs-ride="false">
+                       <div class="carousel-indicators">
+                         <!-- <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="0" style="background: rgb(84, 84, 84);" class="btn_circle6 active" aria-current="true" aria-label="Slide 1"></button> -->
+                         <!-- <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="1" style="background: rgb(84, 84, 84);" class="btn_circle6 " aria-label="Slide 2"></button>
+                         <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="2" style="background: rgb(84, 84, 84);" class="btn_circle6 " aria-label="Slide 3"></button>
+                         <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="3" style="background: rgb(84, 84, 84);" class="btn_circle6 " aria-label="Slide 4"></button>
+                         <button type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide-to="4" style="background: rgb(84, 84, 84);" class="btn_circle6 " aria-label="Slide 5"></button> -->
+       
+                       </div>
+                       <div class="carousel-inner">
+
+                        <div class="menu">
+                            <div class="d_flex b_menu mostrar_fotos">
+                                <h6>FOTOS</h6>
+                                 <img loading="lazy" class="all_img gota_menu" src="img/com/c3gota1.png" alt="" srcset="">
+                            </div>
+                            <div class="d_flex b_menu mostrar_videos">
+                                <h6>VIDEOS</h6>
+                                 <img loading="lazy" class="all_img gota_menu" src="img/com/c3gota1.png" alt="" srcset="">
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active">
+                                   <div class="video_galeria">
+                                           <div class="item_video v_item1">
+                                               <div class="textos">
+                                                   <h5></h5>
+                                               </div>
+                                                   <a class="modal_video" href="#c4"> 
+                                                <video controls  class="video_item">
+                                                    <source src="video/v1.mp4"></source>
+                                                </video>
+                                                   </a>
+                                           </div>
+       
+       
+                                           <div class="item_video v_item2">
+                                               <div class="textos">
+                                                   <h5></h5>
+                                               </div>
+                                                   <a class="modal_video" href="#c4"> 
+                                                <video controls  class="video_item">
+                                                    <source src="video/v2.mp4"></source>
+                                                </video>
+                                                   </a>
+                                           </div>
+       
+                                           <div class="item_video v_item3">
+                                               <div class="textos">
+                                                   <h5></h5>
+                                               </div>
+                                                   <a class="modal_video" href="#c4"> 
+                                                <video controls  class="video_item">
+                                                    <source src="video/v3.mp4"></source>
+                                                </video>
+                                                   </a>
+                                           </div>
+                                          
+                                           <div class="item_video v_item4">
+                                               <div class="textos">
+                                                   <h5></h5>
+                                               </div>
+                                                   <a class="modal_video" href="#c4"> 
+                                                <video controls  class="video_item">
+                                                    <source src="video/v4.mp4"></source>
+                                                </video>
+                                                   </a>
+                                           </div>
+                                         
+                                           <div class="item_video v_item5">
+                                               <div class="textos">
+                                                   <h5></h5>
+                                               </div>
+                                                   <a class="modal_video" href="#c4"> 
+                                                <video controls  class="video_item">
+                                                    <source src="video/v5.mp4"></source>
+                                                </video>
+                                                   </a>
+                                           </div>
+       
+                                           <div class="item_video v_item6">
+                                               <div class="textos">
+                                                   <h5></h5>
+                                               </div>
+                                                   <a class="modal_video" href="#c4"> 
+                                                <video controls  class="video_item">
+                                                    <source src="video/v6.mp4"></source>
+                                                </video>
+                                                   </a>
+                                           </div>
+       
+                                           <div class="item_video v_item7">
+                                            <div class="textos">
+                                                <h5></h5>
+                                            </div>
+                                                <a class="modal_video" href="#c4"> 
+                                             <video controls  class="video_item">
+                                                 <source src="video/v7.mp4"></source>
+                                             </video>
+                                                </a>
+                                        </div>
+
+                                        <div class="item_video v_item8">
+                                            <div class="textos">
+                                                <h5></h5>
+                                            </div>
+                                                <a class="modal_video" href="#c4"> 
+                                             <video controls  class="video_item">
+                                                 <source src="video/pd.mp4"></source>
+                                             </video>
+                                                </a>
+                                        </div>
+                                   </div>
+                         </div>
+
+                         <!-- <div class="carousel-item">
+                            <div class="video_galeria">
+                                    <div class="item_video v_item1">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_video" href="#c4"> 
+                                         <video controls  class="video_item">
+                                             <source src="video/pd.mp4"></source>
+                                         </video>
+                                            </a>
+                                    </div>
+
+
+                                    <div class="item_video v_item2">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_video" href="#c4"> 
+                                         <video controls  class="video_item">
+                                             <source src="video/pd.mp4"></source>
+                                         </video>
+                                            </a>
+                                    </div>
+
+                                    <div class="item_video v_item3">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_video" href="#c4"> 
+                                         <video controls  class="video_item">
+                                             <source src="video/pd.mp4"></source>
+                                         </video>
+                                            </a>
+                                    </div>
+                                   
+                                    <div class="item_video v_item4">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_video" href="#c4"> 
+                                         <video controls  class="video_item">
+                                             <source src="video/pd.mp4"></source>
+                                         </video>
+                                            </a>
+                                    </div>
+                                  
+                                    <div class="item_video v_item5">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_video" href="#c4"> 
+                                         <video controls  class="video_item">
+                                             <source src="video/pd.mp4"></source>
+                                         </video>
+                                            </a>
+                                    </div>
+
+                                    <div class="item_video v_item6">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_video" href="#c4"> 
+                                         <video controls  class="video_item">
+                                             <source src="video/pd.mp4"></source>
+                                         </video>
+                                            </a>
+                                    </div>
+
+                                    <div class="item_video v_item7">
+                                     <div class="textos">
+                                         <h5></h5>
+                                     </div>
+                                         <a class="modal_video" href="#c4"> 
+                                      <video controls  class="video_item">
+                                          <source src="video/pd.mp4"></source>
+                                      </video>
+                                         </a>
+                                 </div>
+
+                                 <div class="item_video v_item8">
+                                     <div class="textos">
+                                         <h5></h5>
+                                     </div>
+                                         <a class="modal_video" href="#c4"> 
+                                      <video controls  class="video_item">
+                                          <source src="video/pd.mp4"></source>
+                                      </video>
+                                         </a>
+                                 </div>
+                            </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="video_galeria">
+                            <div class="item_video v_item1">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_video" href="#c4"> 
+                                 <video controls  class="video_item">
+                                     <source src="video/pd.mp4"></source>
+                                 </video>
+                                    </a>
+                            </div>
+
+
+                            <div class="item_video v_item2">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_video" href="#c4"> 
+                                 <video controls  class="video_item">
+                                     <source src="video/pd.mp4"></source>
+                                 </video>
+                                    </a>
+                            </div>
+
+                            <div class="item_video v_item3">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_video" href="#c4"> 
+                                 <video controls  class="video_item">
+                                     <source src="video/pd.mp4"></source>
+                                 </video>
+                                    </a>
+                            </div>
+                           
+                            <div class="item_video v_item4">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_video" href="#c4"> 
+                                 <video controls  class="video_item">
+                                     <source src="video/pd.mp4"></source>
+                                 </video>
+                                    </a>
+                            </div>
+                          
+                            <div class="item_video v_item5">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_video" href="#c4"> 
+                                 <video controls  class="video_item">
+                                     <source src="video/pd.mp4"></source>
+                                 </video>
+                                    </a>
+                            </div>
+
+                            <div class="item_video v_item6">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_video" href="#c4"> 
+                                 <video controls  class="video_item">
+                                     <source src="video/pd.mp4"></source>
+                                 </video>
+                                    </a>
+                            </div>
+
+                            <div class="item_video v_item7">
+                             <div class="textos">
+                                 <h5></h5>
+                             </div>
+                                 <a class="modal_video" href="#c4"> 
+                              <video controls  class="video_item">
+                                  <source src="video/pd.mp4"></source>
+                              </video>
+                                 </a>
+                         </div>
+
+                         <div class="item_video v_item8">
+                             <div class="textos">
+                                 <h5></h5>
+                             </div>
+                                 <a class="modal_video" href="#c4"> 
+                              <video controls  class="video_item">
+                                  <source src="video/pd.mp4"></source>
+                              </video>
+                                 </a>
+                         </div>
+                    </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="video_galeria">
+                    <div class="item_video v_item1">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_video" href="#c4"> 
+                         <video controls  class="video_item">
+                             <source src="video/pd.mp4"></source>
+                         </video>
+                            </a>
+                    </div>
+
+
+                    <div class="item_video v_item2">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_video" href="#c4"> 
+                         <video controls  class="video_item">
+                             <source src="video/pd.mp4"></source>
+                         </video>
+                            </a>
+                    </div>
+
+                    <div class="item_video v_item3">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_video" href="#c4"> 
+                         <video controls  class="video_item">
+                             <source src="video/pd.mp4"></source>
+                         </video>
+                            </a>
+                    </div>
+                   
+                    <div class="item_video v_item4">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_video" href="#c4"> 
+                         <video controls  class="video_item">
+                             <source src="video/pd.mp4"></source>
+                         </video>
+                            </a>
+                    </div>
+                  
+                    <div class="item_video v_item5">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_video" href="#c4"> 
+                         <video controls  class="video_item">
+                             <source src="video/pd.mp4"></source>
+                         </video>
+                            </a>
+                    </div>
+
+                    <div class="item_video v_item6">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_video" href="#c4"> 
+                         <video controls  class="video_item">
+                             <source src="video/pd.mp4"></source>
+                         </video>
+                            </a>
+                    </div>
+
+                    <div class="item_video v_item7">
+                     <div class="textos">
+                         <h5></h5>
+                     </div>
+                         <a class="modal_video" href="#c4"> 
+                      <video controls  class="video_item">
+                          <source src="video/pd.mp4"></source>
+                      </video>
+                         </a>
+                 </div>
+
+                 <div class="item_video v_item8">
+                     <div class="textos">
+                         <h5></h5>
+                     </div>
+                         <a class="modal_video" href="#c4"> 
+                      <video controls  class="video_item">
+                          <source src="video/pd.mp4"></source>
+                      </video>
+                         </a>
+                 </div>
+            </div>
+        </div>
+
+  <div class="carousel-item">
+    <div class="video_galeria">
+            <div class="item_video v_item1">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_video" href="#c4"> 
+                 <video controls  class="video_item">
+                     <source src="video/pd.mp4"></source>
+                 </video>
+                    </a>
+            </div>
+
+
+            <div class="item_video v_item2">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_video" href="#c4"> 
+                 <video controls  class="video_item">
+                     <source src="video/pd.mp4"></source>
+                 </video>
+                    </a>
+            </div>
+
+            <div class="item_video v_item3">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_video" href="#c4"> 
+                 <video controls  class="video_item">
+                     <source src="video/pd.mp4"></source>
+                 </video>
+                    </a>
+            </div>
+           
+            <div class="item_video v_item4">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_video" href="#c4"> 
+                 <video controls  class="video_item">
+                     <source src="video/pd.mp4"></source>
+                 </video>
+                    </a>
+            </div>
+          
+            <div class="item_video v_item5">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_video" href="#c4"> 
+                 <video controls  class="video_item">
+                     <source src="video/pd.mp4"></source>
+                 </video>
+                    </a>
+            </div>
+
+            <div class="item_video v_item6">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_video" href="#c4"> 
+                 <video controls  class="video_item">
+                     <source src="video/pd.mp4"></source>
+                 </video>
+                    </a>
+            </div>
+
+            <div class="item_video v_item7">
+             <div class="textos">
+                 <h5></h5>
+             </div>
+                 <a class="modal_video" href="#c4"> 
+              <video controls  class="video_item">
+                  <source src="video/pd.mp4"></source>
+              </video>
+                 </a>
+         </div>
+
+         <div class="item_video v_item8">
+             <div class="textos">
+                 <h5></h5>
+             </div>
+                 <a class="modal_video" href="#c4"> 
+              <video controls  class="video_item">
+                  <source src="video/pd.mp4"></source>
+              </video>
+                 </a>
+         </div>
+    </div>
+</div> -->
+
+
+
+                       </div>
+                       <style>
+                           .contenido3{
+                               height: auto !important;
+                           }
+                        
+                       </style>
+                     </div>
+       <!-- fin carusel video -->
+       </div>
+
+<div id="carusel_img">
+         <!-- Comienzo carusel imagenes -->
+            <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <!-- <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" style="background: rgb(84, 84, 84);" class="btn_circle active" aria-current="true" aria-label="Slide 1"></button> -->
+                  <!-- <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" style="background: rgb(84, 84, 84);" class="btn_circle " aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" style="background: rgb(84, 84, 84);" class="btn_circle " aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="3" style="background: rgb(84, 84, 84);" class="btn_circle " aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="4" style="background: rgb(84, 84, 84);" class="btn_circle " aria-label="Slide 5"></button> -->
+
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="menu">
+                        <div class="d_flex b_menu mostrar_fotos">
+                            <h6>FOTOS</h6>
+                             <img loading="lazy" class="all_img gota_menu" src="img/com/c3gota1.png" alt="" srcset="">
+                        </div>
+                        <div class="d_flex b_menu mostrar_videos">
+                            <h6>VIDEOS</h6>
+                             <img loading="lazy" class="all_img gota_menu" src="img/com/c3gota1.png" alt="" srcset="">
+                        </div>
+                    </div>
+
+                  <div class="carousel-item active">
+                            <div class="galeria_grid">
+                                    <div class="largo item1 efecto_h">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img1.jpg" alt=""></a>
+                                    </div>
+
+
+                                    <div class="corto item2 efecto_h">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img2.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="corto item3 efecto_h">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img3.jpg" alt=""></a>
+                                    </div>
+                                   
+                                    <div class="corto item4 efecto_h">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img4.jpg" alt=""></a>
+                                    </div>
+                                  
+                                    <div class="corto item5 efecto_h">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img5.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="largo item6 efecto_h">
+                                        <div class="textos">
+                                            <h5></h5>
+                                        </div>
+                                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img6.jpg" alt=""></a>
+                                    </div>
+
+                            </div>
+                  </div>
+
+<!-- 
+                  <div class="carousel-item">
+                    <div class="galeria_grid">
+                            <div class="largo item1 efecto_h">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img1.jpg" alt=""></a>
+                            </div>
+
+
+                            <div class="corto item2 efecto_h">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img2.jpg" alt=""></a>
+                            </div>
+
+                            <div class="corto item3 efecto_h">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img3.jpg" alt=""></a>
+                            </div>
+                           
+                            <div class="corto item4 efecto_h">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img4.jpg" alt=""></a>
+                            </div>
+                          
+                            <div class="corto item5 efecto_h">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img5.jpg" alt=""></a>
+                            </div>
+
+                            <div class="largo item6 efecto_h">
+                                <div class="textos">
+                                    <h5></h5>
+                                </div>
+                                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img6.jpg" alt=""></a>
+                            </div>
+
+                    </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="galeria_grid">
+                    <div class="largo item1 efecto_h">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img1.jpg" alt=""></a>
+                    </div>
+
+
+                    <div class="corto item2 efecto_h">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img2.jpg" alt=""></a>
+                    </div>
+
+                    <div class="corto item3 efecto_h">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img3.jpg" alt=""></a>
+                    </div>
+                   
+                    <div class="corto item4 efecto_h">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img4.jpg" alt=""></a>
+                    </div>
+                  
+                    <div class="corto item5 efecto_h">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img5.jpg" alt=""></a>
+                    </div>
+
+                    <div class="largo item6 efecto_h">
+                        <div class="textos">
+                            <h5></h5>
+                        </div>
+                            <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img6.jpg" alt=""></a>
+                    </div>
+
+            </div>
+  </div>
+
+
+  <div class="carousel-item">
+    <div class="galeria_grid">
+            <div class="largo item1 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img1.jpg" alt=""></a>
+            </div>
+
+
+            <div class="corto item2 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img2.jpg" alt=""></a>
+            </div>
+
+            
+            <div class="corto item3 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img3.jpg" alt=""></a>
+            </div>
+           
+            <div class="corto item4 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img4.jpg" alt=""></a>
+            </div>
+          
+            <div class="corto item5 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img5.jpg" alt=""></a>
+            </div>
+
+            <div class="largo item6 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img6.jpg" alt=""></a>
+            </div>
+
+    </div>
+</div>
+
+<div class="carousel-item">
+    <div class="galeria_grid">
+            <div class="largo item1 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img1.jpg" alt=""></a>
+            </div>
+
+            <div class="corto item2 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img2.jpg" alt=""></a>
+            </div>
+
+            <div class="corto item3 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img3.jpg" alt=""></a>
+            </div>
+           
+            <div class="corto item4 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img4.jpg" alt=""></a>
+            </div>
+          
+            <div class="corto item5 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img5.jpg" alt=""></a>
+            </div>
+
+            <div class="largo item6 efecto_h">
+                <div class="textos">
+                    <h5></h5>
+                </div>
+                    <a class="modal_fotos" href="#c4"> <img loading="lazy" class="all_img galeria_img" src="img/com/galeria/img6.jpg" alt=""></a>
+            </div>
+
+    </div>
+</div> -->
+
+
+                </div>
+                <style>
+                    .contenido3{
+                        height: auto !important;
+                    }
+                 
+                </style>
+              </div>
+<!-- fin carusel img -->
+</div>
+
+        </div>
+
+<style>
+
+
+</style>
+
+<div class="centrarb">
+    <a href="#c5"><img loading="lazy" class="all_img btn_mitad" id="b6" src="img/b1.png"></a>
+</div>
+<style>
+    #b6{
+        transform: translateY(-88vh);
+    }
+</style>
+                <div class="contenido0">
+                    <img src="img/com/fondo.png" alt="" srcset="">
+                </div>
+     </div>
+
+     <div class="campo_g" id="c5" style="overflow: hidden; position: relative;">
+  
+
+        
+        <div class="gotas">
+    
+            <div class="g_grupo1">
+            <img loading="lazy" class="all_img g_gota1" src="img/com/c3gota1.png" alt="" srcset="">
+            <img loading="lazy" class="all_img g_gota2" src="img/com/c3gota1.png" alt="" srcset="">
+            </div>
+
+            <div class="g_grupo2">
+                <img loading="lazy" class="all_img m_gota1" src="img/com/c3gota2.png" alt="" srcset="">
+                <img loading="lazy" class="all_img m_gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                </div>
+
+                <div class="g_grupo3">
+                    <img loading="lazy" class="all_img p_gota1" src="img/com/c3gota3.png" alt="" srcset="">
+                    <img loading="lazy" class="all_img p_gota2" src="img/com/c3gota3.png" alt="" srcset="">
+                </div>
+        </div>
+        <!-- contenido -->
+        
+        <div class="contenido4">
+            <div id="carouselExampleCaptions32" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions32" data-bs-slide-to="0" style="background: rgb(84, 84, 84);" class="btn_circle2 active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions32" data-bs-slide-to="1" style="background: rgb(84, 84, 84);" class="btn_circle2 " aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions32" data-bs-slide-to="2" style="background: rgb(84, 84, 84);" class="btn_circle2 " aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions32" data-bs-slide-to="3" style="background: rgb(84, 84, 84);" class="btn_circle2 " aria-label="Slide 4"></button>
+
+                </div>
+                <div class="carousel-inner" id="logos">
+
+                    <div class="carousel-item active a_carusel1">
+                        <div class="centrar_logos">
+                            <div class="logos_carusel">
+                                <div class="cuadro">
+                                    <img src="img/com/cliente1.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente2.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente3.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente4.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente5.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente6.png">
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+        
+                     <div class="carousel-item a_carusel1">
+                        <div class="centrar_logos">
+                            <div class="logos_carusel">
+                                <div class="cuadro">
+                                    <img src="img/com/cliente7.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente8.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente9.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente10.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente11.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente12.png">
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+        
+                     <div class="carousel-item a_carusel1">
+                        <div class="centrar_logos">
+                            <div class="logos_carusel">
+                                <div class="cuadro">
+                                    <img src="img/com/cliente13.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente14.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente15.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente16.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente17.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente18.png">
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                     <div class="carousel-item a_carusel1">
+                        <div class="centrar_logos">
+                            <div class="logos_carusel">
+                                <div class="cuadro">
+                                    <img src="img/com/cliente19.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente20.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente1.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente2.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente3.png">
+                                </div>
+        
+                                <div class="cuadro">
+                                    <img src="img/com/cliente4.png">
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions32" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" id="btn_next2" data-bs-target="#carouselExampleCaptions32" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </div>
+
+                <div class="centrarb">
+                    <a href="#c6"><img loading="lazy" class="all_img btn_mitad" id="b7" src="img/b1.png"></a>
+                </div>
+        
+                <div class="contenido0">
+                    <img src="img/com/fondo.png" alt="" srcset="">
+                </div>
+
+     </div>
+   
+     <div class="campo_g" id="c6">
+  
+        <div class="gotas">
+    
+            <div class="g_grupo1">
+            <img loading="lazy" class="all_img g_gota1" src="img/com/c3gota1.png" alt="" srcset="">
+            <img loading="lazy" class="all_img g_gota2" src="img/com/c3gota1.png" alt="" srcset="">
+            </div>
+
+            <div class="g_grupo2">
+                <img loading="lazy" class="all_img m_gota1 c2gota2" src="img/com/c3gota2.png" alt="" srcset="">
+                <!-- <img loading="lazy" class="all_img m_gota2 c2gota2" src="img/com/c3gota2.png" alt="" srcset=""> -->
+                </div>
+
+                <div class="g_grupo3">
+                    <img loading="lazy" class="all_img p_gota1" src="img/com/c3gota3.png" alt="" srcset="">
+                    <img loading="lazy" class="all_img p_gota2" src="img/com/c3gota3.png" alt="" srcset="">
+                </div>
+        </div>
+
+        <!-- contenido -->
+        <div class="contenido5">
+            <div class="izquierda">
+                <img id="img_personas" src="img/events/personas.png" alt="">
+            </div>
+
+            <div class="derecha">
+             <h1 id="contacto">Contacto</h1>
+             <p style="color: black;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus eaque vero nostrum delectus quos suscipit.</p>
+             <form method="POST" action="mails/enviar_email.php">
+                <input class="form-control" type="text" name="nombre" placeholder="Nombre">
+                <input class="form-control" type="email" name="email" placeholder="Email">
+                <div class="g-recaptcha" data-sitekey="6LcQwhAiAAAAAHYDwM7wnT1Fl6BsKJGPFPC_HB2Z"></div>
+                <br>
+                <div style="display: flex; gap: 2%;">
+                    <input type="checkbox" id="terminos" style="width: 16px; height: 16px;"> <span> Acepto los terminos y condiciones</span>
+                </div>
+                  <br>
+                <br>
+                <button type="submit" id="btn_submit" class="btn_black" style="" disabled>ENVIAR</button>
+                <div class="redes">
+                    <img src="img/com/red1.png" alt="">
+                    <img src="img/com/red2.png" alt="">
+                    <img src="img/com/red3.png" alt="">
+                    <img src="img/com/red4.png" alt="">
+                </div>
+              </form>
+            </div>
+           
+        </div>
+
+        <div class="centrarb">
+           <a href="#c1"> <img loading="lazy" class="all_img btn_mitad" id="b2" src="img/b1.png"> </a>
+        </div>
+
+        <div class="contenido0">
+            <img src="img/com/fondo.png" alt="" srcset="">
+        </div>
+
+    </div>
+
+    <script src="js/appsub.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:1000,
+            once:false
+        });
+
+
+
+// GALERIA COM
+
+let largo = document.querySelectorAll('.largo');
+let corto = document.querySelectorAll('.corto');
+let efecto_h = document.querySelectorAll('.efecto_h');
+let modal_fotos_click = document.querySelectorAll('.modal_fotos');
+let modal_fotos = document.getElementById('modal_fotos');
+let cerrar_modal = document.getElementById('cerrar_modal');
+let galeria_img = document.querySelectorAll('.galeria_img');
+let img_g = document.querySelectorAll('.img_g');
+let indicadores = document.getElementById('indicadores');
+let selected_index = document.querySelector('.selected_index');
+// console.log(menu);
+let code;
+// console.log(modal_fotos);
+// modal_fotos.style.filter = "opacity(0)";
+
+// transform: translate(-15vw,50vh);
+// transform: translate(-10vw,50vh);
+
+
+
+modal_fotos.style.zIndex = "-100";
+modal_fotos.style.filter = "opacity(0)";
+modal_fotos.classList.remove('abrirModal');
+selected_index.style.zIndex = "1000";
+
+setTimeout(() => {
+    // modal_fotos.style.display = "none"; 
+    modal_fotos.style.transform = "scale(0)"; 
+
+}, 1000);
+
+
+cerrar_modal.addEventListener('click',()=>{
+    modal_fotos.style.zIndex = "-100";
+    modal_fotos.style.filter = "opacity(0)";
+    modal_fotos.classList.remove('abrirModal');
+    selected_index.style.zIndex = "1000";
+    modal_fotos.style.transform = "scale(0)"; 
+      
+
+});
+
+for (let i = 0; i < modal_fotos_click.length; i++) {
+    modal_fotos_click[i].addEventListener('click',()=>{
+        modal_fotos.style.zIndex = "100";
+        modal_fotos.style.filter = "opacity(1)";
+        modal_fotos.style.transform = "scale(1)"; 
+        modal_fotos.classList.add('abrirModal');
+        indicadores.innerHTML = "";
+    
+        for (let k = 0; k < img_g.length; k++) {
+            if(k==0){
+                code = `<button style="background-image: url('img/com/galeria/album${i+1}/img${k+1}.jpg'); background-size:100%;" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="${k}" style="background: rgb(84, 84, 84);" class="img_selected active" aria-current="true" aria-label="Slide${k+1}"></button>`;
+                img_g[k].src = `img/com/galeria/album${i+1}/img1.jpg`;
+            }else{
+            code = `<button style="background-image: url('img/com/galeria/album${i+1}/img${k+1}.jpg'); background-size:100%;" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="${k}" style="background: rgb(84, 84, 84);" class="img_selected" aria-current="true" aria-label="Slide${k+1}"></button>`;
+            img_g[k].src = `img/com/galeria/album${i+1}/img${k+1}.jpg`;
+
+            }
+            indicadores.innerHTML += code;
+        }
+
+        selected_index.style.zIndex = "-1";
+    });
+}
+// console.log( efecto_h[0]);
+for (let i = 0; i < efecto_h.length; i++) {
+    efecto_h[i].children[1].style.filter = "grayscale(0)";
+    // efecto_h[i].children[1].style.filter = "opacity(0)";
+}
+// console.log(efecto_h);
+
+for (let i = 0; i < efecto_h.length; i++) {
+   
+    efecto_h[i].addEventListener('mouseover',(e)=>{
+
+        mostrarMenu(i);
+       console.log(e);
+    });
+    efecto_h[i].addEventListener('mouseout',()=>{
+        salirMenu(i);
+    });
+  
+}
+
+
+function salirMenu(e) {
+    for (let i = 0; i < efecto_h.length; i++) {
+        efecto_h[i].children[1].style.filter = "grayscale(0)";
+        // efecto_h[i].children[0].style.filter = "opacity(0)";
+    }
+
+}
+
+function mostrarMenu(e) {
+    for (let i = 0; i < efecto_h.length; i++) {
+        efecto_h[i].children[1].style.filter = "grayscale(0)";
+        // efecto_h[i].children[0].style.filter = "opacity(0)";
+    }
+        // efecto_h[e].children[0].style.filter = "opacity(1)";
+        efecto_h[e].children[1].style.filter = "grayscale(1)";
+}
+
+
+for (let i = 0; i < img_g.length; i++) {
+    // img_g[i].addEventListener('mouseover',(e)=>{
+    //     img_g[i].style.transform = "scale(1.1)";
+    //     img_g[i].style.filter = "grayscale(1)";
+
+    // });
+    img_g[i].addEventListener('click',(e)=>{
+        console.log(e);
+        if (img_g[i].requestFullscreen) {
+            img_g[i].requestFullscreen();
+           }
+    });
+}
+
+let video_item = document.querySelectorAll('.video_item');
+
+for (let i = 0; i < video_item.length; i++) {
+   
+    video_item[i].addEventListener('click',(e)=>{
+        console.log(e);
+        if (video_item[i].requestFullscreen) {
+            video_item[i].requestFullscreen();
+           }
+    });
+}
+
+// MENU Carusel
+
+let b_menu = document.querySelectorAll('.b_menu');
+for (let i = 0; i < b_menu.length; i++) {
+   
+    b_menu[i].addEventListener('mouseover',(e)=>{
+        b_menu[i].classList.add('seleccion');
+    });
+    b_menu[i].addEventListener('mouseout',(e)=>{
+        b_menu[i].classList.remove('seleccion');
+    });
+}
+
+// mostrar carusel fotos y video
+let mostrar_fotos = document.querySelectorAll('.mostrar_fotos');
+let mostrar_videos = document.querySelectorAll('.mostrar_videos');
+
+let carusel_img = document.getElementById('carusel_img');
+let carusel_video = document.getElementById('carusel_video');
+carusel_video.style.position = "absolute";
+carusel_video.style.transform = "translateX(-1000vw)";
+
+// carusel_img.style.position = "absolute";
+// carusel_img.style.transform = "translateX(-1000vw)";
+
+for (let i = 0; i < mostrar_fotos.length; i++) {
+    mostrar_fotos[i].addEventListener('click',(e)=>{
+        carusel_img.style.position = "relative";
+        carusel_img.style.transform = "translateX(0vw)";
+
+        carusel_video.style.position = "absolute";
+        carusel_video.style.transform = "translateX(-1000vw)";
+    });
+}
+
+for (let i = 0; i < mostrar_videos.length; i++) {
+    mostrar_videos[i].addEventListener('click',(e)=>{
+        carusel_video.style.position = "relative";
+        carusel_video.style.transform = "translateX(0vw)";
+
+        carusel_img.style.position = "absolute";
+        carusel_img.style.transform = "translateX(-1000vw)";
+    });
+}
+
+
+let menu = document.querySelectorAll('.menu');
+var z = window.matchMedia("(max-width: 992px)")
+myFunction(z) 
+z.addListener(myFunction)
+function myFunction(e){
+    if (z.matches) {
+        menu[1].style.transform = "translate(-17vw,50vh)";
+        menu[0].style.transform = "translate(-27vw,50vh)";
+
+        menu[0].addEventListener('mouseover',(e)=>{
+            menu[0].style.transform = "translate(-15vw,50vh)";
+        });
+
+        menu[1].addEventListener('mouseover',(e)=>{
+            menu[1].style.transform = "translate(-5vw,50vh)";
+        });
+
+        menu[0].addEventListener('click',(e)=>{
+            menu[0].style.transform = "translate(-27vw,50vh)";
+        });
+
+        menu[1].addEventListener('click',(e)=>{
+            menu[1].style.transform = "translate(-17vw,50vh)";
+        });
+    }else{
+        menu[1].style.transform = "translate(0vw,0vh)";
+        menu[0].style.transform = "translate(0vw,0vh)";
+    }
+}
+
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
